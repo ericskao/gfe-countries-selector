@@ -66,12 +66,16 @@ const CountrySelector = () => {
         </ul>
       )}
       <ul className="pinned-countries">
+        <b>Countries I Want to Visit:</b>
         {Array.from(pinnedCountries).map((pinnedCountry, index) => (
           <li className="pinned-country" key={index}>
             <div>{pinnedCountry}</div>
             <button onClick={() => onCountryDelete(pinnedCountry)}>&#x2715;</button>
           </li>
         ))}
+        {Array.from(pinnedCountries).length === 0 && (
+          <div className="no-countries">You have not added any countries!</div>
+        )}
       </ul>
     </div>
   );

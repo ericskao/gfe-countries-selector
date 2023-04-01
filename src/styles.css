@@ -11,6 +11,7 @@
   background-color: white;
   z-index: 2;
   border-bottom: 1px solid black;
+  padding-inline: 0;
 }
 
 .list-country {
@@ -49,7 +50,10 @@
 .pinned-countries,
 .suggestion-list {
   list-style-type: none;
-  padding-inline: 0;
+}
+
+.no-countries {
+  margin-top: 10px;
 }
 
 .root {
