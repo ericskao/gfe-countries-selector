@@ -1,0 +1,61 @@
+.country-text-input {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.suggestion-list {
+  position: absolute;
+  margin-block: 0;
+  max-height: 209px;
+  overflow-y: scroll;
+  background-color: white;
+  z-index: 2;
+  border-bottom: 1px solid black;
+}
+
+.list-country {
+  border: 1px solid black;
+  border-top: 0;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.list-country:last-child {
+  border-bottom: 0;
+}
+
+.list-country:hover {
+  background-color: lightgray;
+}
+
+.country-text-input,
+.suggestion-list,
+.pinned-countries {
+  width: 500px;
+}
+
+.pinned-countries {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.pinned-country {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pinned-countries,
+.suggestion-list {
+  list-style-type: none;
+  padding-inline: 0;
+}
+
+.root {
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+}
