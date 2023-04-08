@@ -55,4 +55,5 @@ If `pinnedCountries` has any clicked countries, we display them in a list below.
 
 ## Notes
 - We us a ref in the solution to clear the text input value after clicking on a value from the autocomplete list.
+  - If we are keeping track of the text input value in a state variable, after clicking on a country, we should setInputValue to ''.
 - If it takes a while for the backend API to return a list of countries, it is a good idea to set a loading state variable, which will render a `Loading...` string somewhere in the component as the results are being fetched.
