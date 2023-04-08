@@ -53,4 +53,6 @@ If `pinnedCountries` has any clicked countries, we display them in a list below.
      - Should display list of clicked countries from the Autocomplete box
      - Each country should have a delete button which upon being clicked, will remove the country from the pinned countries list.
 
-### Rendering
+## Notes
+- We us a ref in the solution to clear the text input value after clicking on a value from the autocomplete list.
+- If it takes a while for the backend API to return a list of countries, it is a good idea to set a loading state variable, which will render a `Loading...` string somewhere in the component as the results are being fetched.
