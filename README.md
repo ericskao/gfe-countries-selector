@@ -42,15 +42,15 @@ If `pinnedCountries` has any clicked countries, we display them in a list below.
 
 ## Test Cases
 - Empty state
-     Text input should include a placeholder
-     Pinned countries list should have an empty state
+     - Text input should include a placeholder
+     - Pinned countries list should have an empty state
 
 - Searched input value
-     Autocomplete list should display returned results
-     Clicking on one of the results should pin it to the pinned countries list
+     - Autocomplete list should display returned results
+     - Clicking on one of the results should pin it to the pinned countries list
 
 - Pinned Countries
-     Should display list of clicked countries from the Autocomplete box
-     Each country should have a delete button which upon being clicked, will remove the country from the pinned countries list.
+     - Should display list of clicked countries from the Autocomplete box
+     - Each country should have a delete button which upon being clicked, will remove the country from the pinned countries list.
 
 ### Rendering
